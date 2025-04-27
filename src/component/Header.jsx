@@ -19,17 +19,21 @@ const Header = () => {
                 <div className="flex items-center space-x-4 h-10 rounded-full border border-white w-[50%]">
                     {/* Search bar */}
                     <div className="flex items-center w-full rounded-full bg-gray-50 border border-gray-300">
-                        <input type="text" placeholder="Search" className="bg-white border border-gray-300 rounded-s-full p-2 w-[90%] h-[100%]"/>
-                        <button className="bg-gray-50 text-white h-full w-[8%] ml-3 hover:bg-gray-200"><img src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search--v1" className=" mx-auto px-2"/></button>
+                        <input type="text" placeholder="Search" className="bg-white border border-gray-300 rounded-s-full p-2 w-[90%] h-10"/>
+                        {/* Search icon button */}
+                        <button className="bg-gray-50 text-white h-10 w-[10%] ml-3 hover:bg-gray-200 rounded-r-full"><img src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search--v1" className=" mx-auto px-2"/></button>
                     </div>
+
                     {/* Microphone button */}
                     <div className="rounded-full h-10 w-10">
                         <button className="bg-gray-100 rounded-full h-full w-full hover:bg-gray-200"><img width="25" height="25" src="https://img.icons8.com/material-sharp/48/microphone--v1.png" alt="microphone--v1" className="mx-auto"/></button>
                     </div>
                 </div>
-                {/* sign in al */}
+                {/* sign in */}
                 <div className="flex items-center space-x-2">
+                    {/* settings button */}
                     <button><img width="25" height="25" src="https://img.icons8.com/fluency-systems-regular/48/menu-2--v1.png" alt="menu-2--v1"/></button>
+                    {/* Sign in button */}
                     <button className="text-blue-500 rounded-full border-1 p-1 px-3 hover:bg-blue-100"><img width="25" height="25" src="https://img.icons8.com/ios/50/user-male-circle--v1.png" alt="user-male-circle--v1" className="inline"/> Sign In</button>
                 </div>
             </nav>
