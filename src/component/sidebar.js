@@ -41,7 +41,7 @@ const Sidebar = () => {
       {/* Main Links */}
       <div className="mb-6">
         {mainLinks.map((item) => (
-          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition">
+          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition delay-50 duration-300 ease-in-out">
             {item.icon}
             <span>{item.name}</span>
           </div>
@@ -52,7 +52,7 @@ const Sidebar = () => {
       <h4 className="text-gray-500 font-semibold mb-2 px-2">Explore</h4>
       <div className="mb-6">
         {exploreLinks.map((item) => (
-          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition">
+          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition delay-50 duration-300 ease-in-out">
             {item.icon}
             <span>{item.name}</span>
           </div>
@@ -63,7 +63,7 @@ const Sidebar = () => {
       <h4 className="text-gray-500 font-semibold mb-2 px-2">More from YouTube</h4>
       <div className="mb-6">
         {moreLinks.map((item) => (
-          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition">
+          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition delay-50 duration-300 ease-in-out">
             {item.icon}
             <span>{item.name}</span>
           </div>
@@ -73,7 +73,7 @@ const Sidebar = () => {
       {/* Settings and Support */}
       <div className="mt-4">
         {settingsLinks.map((item) => (
-          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition">
+          <div key={item.name} className="flex items-center gap-4 p-2 rounded-md cursor-pointer hover:bg-gray-100 transition delay-50 duration-300 ease-in-out">
             {item.icon}
             <span>{item.name}</span>
           </div>
@@ -84,11 +84,12 @@ const Sidebar = () => {
       <div className="text-[11px] text-gray-400 mt-8 px-2 leading-4">
         Youtube clone (Vic & Abdul)
         <br /><br />
-         2025 Google LLC
+        2025 Google LLC
       </div>
 
     </div>
   );
 };
+
 
 export default Sidebar;
