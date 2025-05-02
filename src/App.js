@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Sidebar />
-      <Mainvid />
+      <div className="flex h-screen">
+        <div className="w-1/4 bg-gray-100">
+          <Sidebar />
+        </div>
+        <Mainvid />
+      </div>
     </div>
   );
 }
