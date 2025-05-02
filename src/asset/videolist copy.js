@@ -15,7 +15,7 @@ import vid6 from './images/5.jpeg';
 
 export const videos = [{
     id: 0,
-    title: "The drunken master",
+    title: "The drunken master - fight to the last",
     account_name: "Shaolin boy",
     account_logo: img1,
     views: 233,
@@ -25,7 +25,7 @@ export const videos = [{
 ,
 {
     id: 1,
-    title: "Snake in the monkey shadow",
+    title: "Snake in the monkey shadow - remastered",
     account_name: "Feng Shan school",
     account_logo: img2,
     views: 1033,

@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="flex h-screen">
-        <div className="w-1/4 bg-gray-100">
-          {/* Sidebar takes 1/4th of screen */}
+        <div className="w-1/7 bg-gray-100">
+          {/* Sidebar takes 1/7th of screen */}
           <Sidebar />
         </div>
         <div className="flex-1 bg-white overflow-auto">

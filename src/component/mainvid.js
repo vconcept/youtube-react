@@ -22,7 +22,13 @@ const Mainvid = () => {
               alt="logo"
               className="w-10 h-10 rounded-full mr-2"
             />
-            <h2 className="text-lg font-semibold">{clip.account_name}</h2>
+            <div>
+              <h2 className="text-lg font-semibold">{clip.account_name}</h2>
+              <div className="flex text-sm text-gray-600 space-x-4">
+                <p>{clip.uploaded}</p>
+                <p>{clip.views} views</p>
+              </div>
+            </div>
           </div>
         </div>
       ))}
